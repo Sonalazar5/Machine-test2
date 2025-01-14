@@ -1,0 +1,103 @@
+@media (max-width: 768px) {
+  .dashboard {
+    flex-direction: column; 
+  }
+
+  .sidebar {
+    width: 100%; 
+    height: auto; 
+    flex-direction: row; 
+    justify-content: space-between; 
+  }
+
+  .logo {
+    font-size: 18px; 
+    font-weight: bold;
+  }
+
+  .menu-item {
+    display: flex;
+    align-items: center;
+    margin: 0; 
+  }
+
+  .menu-item img {
+    margin-right: 0; 
+    height: 30px; 
+  }
+
+  .main-content {
+    padding: 20px;
+    width: 100%; 
+    margin-top: 20px;
+  }
+
+  .top-bar {
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .search-bar input {
+    width: 80%; 
+    padding: 10px;
+  }
+
+  .top-bar-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .stats-section {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .stat-card {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1 0 48%; 
+    margin: 0 10px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .stat-card h3 {
+    font-size: 18px;
+    color: #333;
+  }
+
+  .stat-card p {
+    font-size: 14px;
+    color: #666;
+  }
+
+  .upload-section {
+    width: 100%; 
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .upload-section img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Removing user card and adjusting calendar position */
+  .user-card {
+    display: none;
+  }
+
+  .calendar {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+}
